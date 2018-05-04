@@ -1,0 +1,94 @@
+body {
+      background: #E9C6AF;
+}
+#oquee {
+          padding: ;
+          margin: 60px 50px;
+		  width: 150px;
+		  height: 120px;
+}
+#asusiot {
+          padding: ;
+          margin: 200px 50px;
+		  width: 150px;
+		  height: 120px;
+}
+#p2 {
+          padding: ;
+          margin: 400px 60px;
+		  width: 250px;
+		  height: 250px;
+}
+#android {
+     margin: 340px 50px;
+	 width: 150px;
+	 height: 120px;
+}
+#p1 {
+      margin: 300px 760px;
+	  width: 250px;
+	  height: 250px;
+}
+table {
+       height: 485px;
+       border: 5px #61380B solid;
+}
+td {   
+    width: 300px;
+    margin:;
+    padding: 0px;
+    border: 2px #61380B solid;
+}
+th {
+    height: 30px;
+    border: 2px #61380B solid;
+}
+img {
+     position: fixed;
+     top: 15px;
+     width: 100px;
+     padding: 0px;    
+}
+.txtfoto {
+   text-align: center;
+   top: 100px;
+   padding: 130px 10px 0px 10px;
+}
+.foto { 
+		margin-top: 2px;
+}
+.inicioP, form {
+                padding: 10px 250px;
+}
+.posicaoH3, h6, .projetotxt {
+                         text-align: center;
+}
+#facebook {
+           width: 30px;
+           height: 30px;
+           margin: 450px 350px;
+}
+#twitter {
+          width: 30px;
+          height: 30px;
+          margin: 450px 400px;
+}
+#google {
+         width: 30px;
+         height: 30px;
+         margin: 450px 450px;
+}
+#blogger {
+      width: 30px;
+      height: 30px;
+      margin: 450px 500px;
+      position: fixed center;
+}
+#youtube {
+		  width: 30px;
+		  height: 30px;
+		  margin: 450px 550px;
+}
+.contatocaixatxt {
+          width: 400px;
+}

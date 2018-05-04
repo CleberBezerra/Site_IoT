@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <!---Página retirada do projeto do site--->
+      <title>Cadastro de Startup</title>
+      <meta name="author" content="Cleber Bezerra">
+      <meta name="description">
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="estiloCadastro.css">
+   </head>
+   <body>
+      <h1 class="posicaoH1">Faça seu cadastro!</h1>
+	  <hr color="blue" align="center" size="0" width="20%"><br>
+      <form action="#" method="post">
+	  
+	  <!--- Dados Pessoais --->
+	  <fieldset>
+		<legend class="legenda"><font>Dados Pessoais</font></legend>
+		<table cellpadding="10">
+			<tr>
+				<td>
+					<label for="nome">Nome *:</label>
+				</td>
+				<td>
+					<input type="text" name="nome" size="40" maxlength="40" required title="Digite seu nome!">
+				</td>
+				<td>
+					<label for="sobrenome">Sobrenome *:</label>
+				</td>
+				<td>
+					<input type="text" name="sobrenome" size="50" maxlength="50" required title="Digite seu sobrenome!!">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="cpf">CNPJ *:</label>
+				</td>
+				<td>
+					<input type="text" name="cpf" size="18" maxlength="18" required title="Digite o número do seu CNPJ: nn.nnn.nnn/nnnn-nn">
+					-
+					<input type="text" size="2" maxlength="2" required>
+				</td>
+				<td>
+					<label for="nascimento">Nascimento:</label>
+				</td>
+				<td align="left">
+					<input type="text" name="dia" size="2" maxlength="2" value="" title="Digite o dia!">
+					/
+					<input type="text" name="mes" size="2" maxlength="2" value="" title="Digite o mês!!">
+					/
+					<input type="text" name="ano" size="4" maxlength="4" value="" title="Digite o ano!!!">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="rg">RG:</label>
+				</td>
+				<td>
+					<input type="text" name="rg" size="18" maxlength="18">
+		        </td>
+				<td>
+					<label for="expedicao">Expedição:</label>
+				</td>
+				<td align="left">
+					<input type="text" name="dia" size="2" maxlength="2" value="" title="Digite o dia!">
+					/
+					<input type="text" name="mes" size="2" maxlength="2" value="" title="Digite o mês!!">
+					/
+					<input type="text" name="ano" size="4" maxlength="4" value="" title="Digite o ano!!!">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="orgao">Órgão Emissor:   .</label>
+				</td>
+				<td>
+					<input type="text" name="orgao" size="40" maxlength="40">
+		        </td>
+				<td>
+					<label for="uf">UF:</label>
+				</td>
+				<td>
+					<select name="uf">
+						<option value=" "> </option>
+						<option value="AC">AC</option>
+						<option value="AL">AL</option>
+						<option value="AM">AM</option>
+						<option value="AP">AP</option>
+						<option value="BA">BA</option>
+						<option value="CE">CE</option>
+						<option value="DF">DF</option>
+						<option value="ES">ES</option>
+						<option value="GO">GO</option>
+						<option value="MA">MA</option>
+						<option value="MG">MG</option>
+						<option value="MS">MS</option>
+						<option value="MT">MT</option>
+						<option value="PA">PA</option>
+						<option value="PB">PB</option>
+						<option value="PE">PE</option>
+						<option value="PI">PI</option>
+						<option value="PR">PR</option>
+						<option value="RJ">RJ</option>
+						<option value="RN">RN</option>
+						<option value="RO">RO</option>
+						<option value="RR">RR</option>
+						<option value="RS">RS</option>
+						<option value="SC">SC</option>
+						<option value="SE">SE</option>
+						<option value="SP">SP</option>
+						<option value="TO">TO</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="sexo">Sexo:</label>
+				</td>
+				<td>
+					<select name="sexo">
+					<option value=""> </option>
+					<option value="masculino">Masculino</option>
+					<option value="feminino">Feminino</option>
+					<option value="outro">Outra opção</option>
+				</td>
+				<td>
+					<label for="estadocivil">Estado Civil:</label>
+				</td>
+				<td>
+					<select name="estadocivil">
+					<option value=""></option>
+					<option value="casado">Casado(a)</option>
+					<option value="desquitado">Divorciado(a)</option>
+					<option value="separado">Separado(a)</option>
+					<option value="solteiro">Solteiro(a)</option>
+					<option value="viuvo">Viúvo(a)</option>
+					<option value="outro">Outra Opção</option>
+				</td>
+			</tr>			
+		</table>
+		<table cellpadding="10">
+		    <tr>
+				<td>
+					<label for="natural">Naturalidade:</label>
+				</td>
+				<td>
+					<input type="text" name="natural" size="85" maxlength="85">
+				</td>
+	        </tr>
+			<tr>
+				<td>
+					<label for="mae">Nome da Mãe *:</label>
+				</td>
+				<td>
+					<input type="text" name="mae" size="100" maxlength="100" required title="Digite o nome da mãe!">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="pai">Nome do Pai:</label>
+				</td>
+				<td>
+					<input type="text" name="pai" size="100" maxlength="100">
+				</td>
+			</tr>
+	    </table>
+	  </fieldset><br>
+	  
+	  <!--- Dados de Endereço --->
+	  <fieldset>
+		<legend class="legenda"><font>Dados Residenciais</font></legend>
+		<table cellpadding="10">
+			<tr>
+				<td>
+					<label for="cep">CEP *:</label>
+				</td>
+				<td>
+					<input type="text" name="cep" size="5" maxlength="5" required title="Digite o CEP da sua rua!">
+					-
+					<input type="text" size="3" maxlength="3" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="uf">Endereço:</label>
+				</td>
+				<td>
+					<input type="text" name="endereco" maxlength="80" size="80">
+				</td>	
+				<td>
+					<label for="numero">Nº *:</label>
+				</td>
+				<td>
+					<input type="text" name="numero" maxlength="6" size="6" id="n" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="complemento">Complemento:</label>
+				</td>
+				<td>
+					<input type="text" name="complemento" size="80" maxlength="80">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="bairro">Bairro:</label>
+				</td>
+				<td>
+					<input type="text" name="bairro" size="80" maxlength="80">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="cidade">Cidade:</label>
+				</td>
+				<td>
+					<input type="text" name="cidade" maxlength="80" size="80">
+				</td>			
+				<td>
+					<label for="uf" >UF:</label>
+				</td>
+				<td>
+					<select name="uf">
+						<option value=" "> </option>
+						<option value="AC">AC</option>
+						<option value="AL">AL</option>
+						<option value="AM">AM</option>
+						<option value="AP">AP</option>
+						<option value="BA">BA</option>
+						<option value="CE">CE</option>
+						<option value="DF">DF</option>
+						<option value="ES">ES</option>
+						<option value="GO">GO</option>
+						<option value="MA">MA</option>
+						<option value="MG">MG</option>
+						<option value="MS">MS</option>
+						<option value="MT">MT</option>
+						<option value="PA">PA</option>
+						<option value="PB">PB</option>
+						<option value="PE">PE</option>
+						<option value="PI">PI</option>
+						<option value="PR">PR</option>
+						<option value="RJ">RJ</option>
+						<option value="RN">RN</option>
+						<option value="RO">RO</option>
+						<option value="RR">RR</option>
+						<option value="RS">RS</option>
+						<option value="SC">SC</option>
+						<option value="SE">SE</option>
+						<option value="SP">SP</option>
+						<option value="TO">TO</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="referencia">Ponto de Referência:</label>
+				</td>
+				<td>
+					<input type="text" name="referencia" size="80" maxlength="80">
+				</td>
+			</tr>
+     </table>
+	 </fieldset><br>
+	 
+	 <!--- Dados Startups --->
+	 <fieldset >
+	 <legend class="legenda"><font >Dados da Startup</font></legend>
+	 <table cellpadding="10">
+	 <tr>
+		<td>
+			<label for="area">Tipos:</label>
+		</td>
+		<td>
+			<select name="tipos">
+				<option value=" "> </option>
+				<option value="scalable">Scalable</option>
+				<option value="large">Large company</option>
+				<option value="business">Small business</option>
+				<option value="buyable">Buyable</option>
+				<option value="lifestyle">Lifestyle</option>
+				<option value="social">Social</option>
+				<option value=""></option>
+			</select>
+		</td>
+		<td>
+			<label for="estagio">Estágios de desenvolvimento:</label>
+		</td>
+		<td>
+			<input name="validacao" value="1" type="radio">
+			Validação (produto em desenvolvimento)
+			<input name="negocio" value="2" type="radio">
+			Negócio (produto validado)
+			<input name="escala" value="3" type="radio">
+			Escala (clientes e faturamento)
+		</td>
+	 </tr>
+	 <tr>
+		<td>
+			<label for="turma">Turma:</label>
+		</td>
+		<td>
+			<select name="turma">
+				<option value=" "> </option>
+				<option value="A">A</option>
+				<option value="B">B</option>
+				<option value="C">C</option>
+				<option value="D">D</option>
+			</select>
+		</td>
+	 <!--- /tr>
+	 <tr id="turno" --->
+		<td>
+			<label for="turno">Turno:</label>
+		</td>
+		<td>
+			<input name="turno" value="manha" type="checkbox">
+			Manhã
+			<input name="turno" value="tarde" type="checkbox">
+			Tarde
+			<input name="turno" value="noite" type="checkbox">
+			Noite
+		</td>
+	 </tr>
+	 </table>
+	 </fieldset><br>
+	 
+	 <!--- Dados de Contato --->
+	 <fieldset >
+	 <legend class="legenda"><font>Dados de Contato</font></legend>
+		<table cellpadding="10">
+			<tr>
+				<td>
+					<label for="telefone1">DDD/Fone *:</label>
+				</td>
+				<td>
+					<input type="code" name="ddd1" size="2" maxlength="2" required title="Digite o DDD">
+					-
+					<input type="text" name="telefone1" size="9" maxlength="9" required title="Digite o número do telefone!">
+				</td>
+				<td>
+					<label for="tipo1">Tipo:</label>
+				</td>
+				<td>
+					<select name="tipo1" title="Escolha um tipo!">
+						<option value=""></option>
+						<option value="celular" required>Celular</option>
+						<option value="residencial" required>Residêncial</option>
+						<option value="trabalho" required>Trabalho</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="telefone2">DDD/Fone:</label>
+				</td>
+				<td>
+					<input type="code" name="ddd2" size="2" maxlength="2" title="Digite o DDD">
+					-
+					<input type="text" name="telefone2" size="9" maxlength="9">
+				</td>
+				<td>
+					<label for="tipo2">Tipo:</label>
+				</td>
+				<td>
+					<select name="tipo2" title="Escolha um tipo!">
+						<option value=""></option>
+						<option value="celular" >Celular</option>
+						<option value="residencial" >Residêncial</option>
+						<option value="trabalho" >Trabalho</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+		<table cellpadding="10">
+			<tr>
+				<td>
+					<label for="email">Email:</label>
+				</td>
+				<td>
+					<input type="email" name="email" size="100" maxlength="100">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="redesocial">Rede Social:</label>
+				</td>
+				<td>
+					<input type="text" name="redesocial" size="100" maxlength="100">
+				</td>
+			</tr>
+		</table>
+	 </fieldset><br>
+	 
+	 <!--- Dados de Cadastro --->
+	 <fieldset>
+	 <legend class="legenda"><font>Dados de Cadastro</font></legend>
+		<table cellpadding="10">
+			<tr>
+				<td>
+					<label for="imagem">Imagem:</label>
+				</td>
+				<td>
+					<input type="file" name="imagem">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="usuario">Nome de usuário *:</label>
+				</td>
+				<td>
+					<input type="text" name="usuario" size="20" maxlength="20" required title="Digite um nome de usuário!">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="senha">Senha *:</label>
+				</td>
+				<td>
+					<input type="password" name="senha" size="13" maxlength="12" required title="Digite uma senha com um mínimo de 6 caracteres e um maximo de 12!!!">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="repsenha">Repita a senha *:</label>
+				</td>
+				<td>
+					<input type="password" name="repsenha" size="13" maxlength="12" required title="Repita a senha!!!">
+				</td>
+			</tr>
+		</table>
+	 </fieldset><br>
+	 <table cellpadding="10">
+		<tr>
+			<legend id="asterisco">(*) - Preenchimento obrigatório</legend>
+			<td>
+				<input type="submit" name="enviar" value="Enviar">
+				<input type="reset" name="limpar" value="Limpar formulário">
+			</td>
+			<hr color="gray" align="left" name="linha2" size="0" width="20%">
+		</tr> 
+		</table>
+      </form>	  
+   </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <title>Contato</title>
+      <meta name="author" content="Cleber Bezerra">
+      <meta name="description" content="Site demostração OoT">
+      <!--meta charset="utf-8"-->
+      <link rel="stylesheet" type="text/css" href="estilopaginas.css">
+   </head>
+
+   <!---Conteúdo: Contato--->
+   <body>
+      <h3 class="posicaoH3">Entre em contato conosco!</h3>
+
+      <form action="#" method="post">
+      <p>Nome completo: <br>
+        <input class="contatocaixatxt" type="text" name="nome" required/>
+      </p>
+      <p>Fone fixo (DDD): <br>
+        <input type="tel" name="fone" pattern="\d{10}" title="Digite o número do fixo: (--)nnnn.nnnn"/>
+      </p> 
+      <p>Celular (DDD): <br>
+        <input type="tel" name="celular" required pattern="\d{11}" title="Digite o número do celular: (--)nnn.nnn.nnn"/>
+      </p>
+      <p>Email: <br>
+        <input class="contatocaixatxt" type="email" name="email" required/>
+      </p>  
+      <p>Mensagem: <br>
+        <textarea row="32" cols="48"> </textarea>
+      </p>
+      <p><input type="submit" value="Enviar"/>
+      </p>  
+      </form>	  
+	  <footer>
+			<nav>
+				
+			</nav>
+	  </footer>
+   </body>
+</html>
